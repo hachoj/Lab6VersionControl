@@ -10,10 +10,9 @@ def encoder(data):
     return ''.join(return_data_list)
 
 
-
-def main()
+def main():
     pass
 
 
-if__name__ == '__main__':
+if __name__ == '__main__':
     main()
