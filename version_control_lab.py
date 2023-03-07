@@ -8,12 +8,18 @@ def encoder(data):
             num -= 10
         encoded_data += str(num)
     return encoded_data
+
+
+# Cyrus Smeltzer' Code
 def decoder(encoded_password):
     decoded_password = ''
     for num in encoded_password:
         new_num = int(num) - 3
+        if new_num < 0:
+            new_num += 10
         decoded_password += str(new_num)
     return decoded_password
+
 
 def main():
     playing = True
