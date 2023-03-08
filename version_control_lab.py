@@ -10,7 +10,7 @@ def encoder(data):
     return encoded_data
 
 
-# Cyrus Smeltzer' Code
+# Cyrus Smeltzer's Code
 def decoder(encoded_password):
     decoded_password = ''
     for num in encoded_password:
